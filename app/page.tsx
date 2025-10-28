@@ -127,7 +127,7 @@ export default function Home() {
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 placeholder="Ej: 521234567890"
-                className="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-red-500 focus:outline-none transition-all"
+                className="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-red-500 focus:outline-none transition-all text-black"
               />
             </div>
 
@@ -140,7 +140,7 @@ export default function Home() {
                 value={reviewUrl}
                 onChange={(e) => setReviewUrl(e.target.value)}
                 placeholder="Ej: https://g.page/tu-negocio"
-                className="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-red-500 focus:outline-none transition-all"
+                className="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-red-500 focus:outline-none transition-all text-black"
               />
             </div>
 
